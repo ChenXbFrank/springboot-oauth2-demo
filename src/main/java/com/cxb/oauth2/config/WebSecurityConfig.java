@@ -52,6 +52,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+    /**
+     *  这里是将用户名信息保存在内存里，没有去数据库查询
+     *  可以根据实际的业务场景转换为查询数据库的方式
+     * @return
+     */
     @Override
     @Bean
     @SneakyThrows

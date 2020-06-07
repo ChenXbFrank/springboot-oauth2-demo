@@ -96,6 +96,10 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     }
 
+    /**
+     *  处理跨域问题
+     * @return
+     */
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
