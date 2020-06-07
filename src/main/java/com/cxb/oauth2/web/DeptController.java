@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author yutao
- * @create 2019-10-24 14:35
- **/
+ *  部门controller
+ */
 @RestController
 @RequestMapping("dept")
 public class DeptController {

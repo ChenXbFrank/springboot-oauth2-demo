@@ -22,6 +22,9 @@ import org.springframework.web.filter.CorsFilter;
 
 import java.util.Arrays;
 
+/**
+ *  授权服务器
+ */
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
